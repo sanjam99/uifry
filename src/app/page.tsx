@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Advantages from "@/components/Advantages";
 import Testinomials from "@/components/Testinomials";
 import FAQ from "@/components/FAQ";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Advantages />
       <Testinomials />
       <FAQ />
+      <Banner />
     </div>
     
     </>
