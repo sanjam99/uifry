@@ -5,6 +5,7 @@ import Advantages from "@/components/Advantages";
 import Testinomials from "@/components/Testinomials";
 import FAQ from "@/components/FAQ";
 import Banner from "@/components/Banner";
+import Ending from "@/components/Ending";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Testinomials />
       <FAQ />
       <Banner />
+      <Ending />
     </div>
     
     </>
