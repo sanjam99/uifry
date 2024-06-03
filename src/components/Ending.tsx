@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../public/Group.jpeg'
+import mail from '../../public/Frame (2).png'
+import call from '../../public/Frame (1).png'
 import Image from 'next/image';
 
 function Ending() {
@@ -37,11 +39,11 @@ function Ending() {
           <p className="w-2 h-1 text-xs font-medium text-gray-800">TM</p>
         </div>
         <div className="inline-flex space-x-2 items-center justify-end w-full h-6">
-          <img className="w-6 h-6 rounded-lg" src="https://via.placeholder.com/24x24" alt="email" />
+          <img className="w-6 h-6 rounded-lg" src={mail.src} alt="email" />
           <p className="text-base font-medium leading-relaxed capitalize">help@frybix.com</p>
         </div>
         <div className="inline-flex space-x-2 items-center justify-end w-full h-6">
-          <img className="w-6 h-6 rounded-lg" src="https://via.placeholder.com/24x24" alt="phone" />
+          <img className="w-6 h-6 rounded-lg" src={call.src} alt="phone" />
           <p className="text-base font-medium leading-relaxed capitalize">+1 234 456 678 89</p>
         </div>
       </div>

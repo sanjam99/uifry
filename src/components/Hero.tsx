@@ -3,7 +3,9 @@ import Image from 'next/image'
 import linkphone from '../../public/Group 1000004721.jpeg'
 import banner from '../../public/Group 35924.jpeg'
 import backgroundImage from '../../public/Group 35896.png'
-
+import star from '../../public/star-05.png'
+import cube1 from '../../public/cube-02.png'
+import cube from '../../public/cube-04.png'
 
 function Hero() {
   return (
@@ -49,7 +51,7 @@ function Hero() {
       </div>
       <div className="flex flex-col space-y-3 items-start justify-end w-full">
         <div className="inline-flex space-x-2 items-center justify-start w-1/3">
-          <img className="w-6 h-6 rounded-lg" src="https://via.placeholder.com/24x24" alt="icon" />
+        <img className="w-6 h-6 rounded-lg" src={star.src} alt="icon" />
           <p className="text-lg font-semibold leading-7 capitalize">budgeting intervals</p>
         </div>
         <p className="opacity-50 text-lg font-medium leading-7 capitalize w-full">
@@ -58,7 +60,7 @@ function Hero() {
       </div>
       <div className="flex flex-col space-y-3 items-start justify-end w-full">
         <div className="inline-flex space-x-2 items-center justify-start w-1/3">
-          <img className="w-6 h-6 rounded-lg" src="https://via.placeholder.com/24x24" alt="icon" />
+          <img className="w-6 h-6 rounded-lg" src={cube.src} alt="icon" />
           <p className="text-lg font-semibold leading-7 capitalize">budgeting intervals</p>
         </div>
         <p className="opacity-50 text-lg font-medium leading-7 capitalize w-full">
@@ -67,7 +69,7 @@ function Hero() {
       </div>
       <div className="flex flex-col space-y-3 items-start justify-end w-full">
         <div className="inline-flex space-x-2 items-center justify-start w-1/3">
-          <img className="w-6 h-6 rounded-lg" src="https://via.placeholder.com/24x24" alt="icon" />
+          <img className="w-6 h-6 rounded-lg" src={cube1.src} alt="icon" />
           <p className="text-lg font-semibold leading-7 capitalize">budgeting intervals</p>
         </div>
         <p className="opacity-50 text-lg font-medium leading-7 capitalize w-full">

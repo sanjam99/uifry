@@ -7,6 +7,8 @@ import imageSrc from '@/../public/On Hold.png';
 
 import imageSrc2 from '../../public/Group 35937.png'
 import card from '../../public/Group.png'
+import star from '../../public/star-05.png'
+import bell from '../../public/bell-02.png'
 
 function Advantages() {
   return (
@@ -53,7 +55,7 @@ function Advantages() {
       <div className="inline-flex space-x-4 items-center justify-end w-80 h-12">
         <div className="relative" style={{ width: '48px', height: '48px' }}>
           <div className="w-12 h-12 bg-red-500 rounded-full"></div>
-          <img className="w-6 h-6 absolute right-0 bottom-0 rounded-lg" src="https://via.placeholder.com/24x24" alt="icon" />
+          <img className="w-6 h-6 absolute right-0 bottom-0 rounded-lg" src={bell.src} alt="icon" />
         </div>
         <p className="text-left text-3xl font-semibold leading-7 capitalize">clever notifications</p>
       </div>
@@ -67,7 +69,7 @@ function Advantages() {
   <div className="inline-flex flex-col space-y-6 items-start justify-end w-full h-full">
     <div className="inline-flex space-x-4 items-center justify-end w-80 h-12">
       <div className="relative w-12 h-12 bg-red-500 rounded-full">
-        <img className="w-6 h-6 absolute right-0 bottom-0 rounded-lg" src="https://via.placeholder.com/24x24" alt="icon" />
+        <img className="w-6 h-6 absolute right-0 bottom-0 rounded-lg" src={star.src} alt="icon" />
       </div>
       <p className="text-3xl font-semibold leading-7 capitalize">fully customizable</p>
     </div>
